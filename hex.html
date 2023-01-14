@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project One</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="hex.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar-expand-lg navbar navbar box-shadow">
+            <div class="container-fluid">
+                <a class="navbar-brand fw-bold" href="#">Random Color Generator</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                    <ul class="navbar-nav d-flex justify-content-center mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold " aria-current="page" href="index.html">Simple Color</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold active"  aria-current="page" href="hex.html">Hex Color</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex ms-auto" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <main>
+            <div class="container">
+                <div class="content">
+                    <div class="title">
+                        <h2 id="heading">Your color is <span id="Random"></span></h2>
+                    </div>
+                    <button id="btn" class="btn btn-success" type="button">Generator Color</button>
+                </div>
+            </div>
+        </main>
+    </section> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
